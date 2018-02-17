@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token="")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token="")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token="")
 ks.loginResult()
 
 print "login success plak"
